@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    background-color: rgb(199, 177, 99);
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.row {
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content:center;
+}
+
+.key {
+    display: flex;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid rgb(255, 255, 255);
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+    background-color: white;
+    color: rgb(199, 177, 99);
+    &:hover{
+        @include transition;
+        background:rgb(199, 177, 99);
+        color:white;
+      }
+}
+
+#wording {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    justify-content:center;
+    gap: 100px;
+    list-style-type: none;
+    color: white;
+    
+}
+
+
+#reset-button {
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(199, 177, 99);
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+#message-container {
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    margin-left: 590px;
+    margin-bottom: 500px;
+    align-items: center;
+    font-size: 60px;
+}
+
+#chances {
+    height: 50px;
+}
+
+#chance-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
