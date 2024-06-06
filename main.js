@@ -3,7 +3,8 @@
 let winner;
 let incorrectGuesses = 0;
 let onScreenWord = [];
-const wordList = ["Cow", "Sheep", "Pig", "Chicken", "Horse", "Goat", "Duck", "Turkey", "Donkey", "Rabbit"]
+const wordList = ["COW", "SHEEP", "PIG", "CHICKEN", "HORSE", "GOAT", "DUCK", "TURKEY", "DONKEY", "RABBIT"]
+
 
 //query selectors
 
