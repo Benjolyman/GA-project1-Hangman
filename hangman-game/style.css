@@ -9,6 +9,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 300px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 
 .row {
@@ -84,3 +92,4 @@ body {
     justify-content: center;
     height: 100px;
 }
+
